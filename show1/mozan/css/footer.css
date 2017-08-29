@@ -1,0 +1,119 @@
+.footerup{
+	background-color: #000;
+}
+.footerup_on{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+.footerup_on>div{
+	float: left;
+
+}
+.footerup_on>div h2{
+	font-size: 23px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.footerup_on>div:nth-child(1){
+	padding-left: 22px;
+	width: 403px;
+	margin-bottom: 108px;
+}
+.footerup_on div:nth-child(1)>ul{
+	float: left;
+	margin-right: 42px;
+}
+.footerup_on div:nth-child(1)>ul li{
+	margin-bottom: 10px;
+}
+.footerup_on div:nth-child(1)>ul a{
+	font-size: 20px;
+	color: #ffd602;
+}
+.footerup_on div:nth-child(1)>ul a span{
+	color: #fff;
+	font-size: 16px;
+}
+.footerup_on>div:nth-child(2){
+	width: 433px;
+}
+.footerup_on>div:nth-child(2)>div{
+	padding-top: 6px;
+}
+.footerup_on div:nth-child(2)>div>div{
+	float: left;
+	width: 106px;
+	margin-right: 30px;
+}
+.footerup_on div:nth-child(2)>div>div>img{
+	display: block;
+	max-width: 100%;
+	margin-bottom: 10px;
+}
+.footerup_on div:nth-child(2)>div>div:nth-child(2)>a{
+	background-color: #01a90b;
+}
+.footerup_on div:nth-child(2)>div>div>a{
+	display: block;
+	border-radius: 50%;
+	margin: 0 auto;
+	width: 49px;
+	background-color: #ff6501;
+	font-size: 40px;
+	line-height: 49px;
+	color: #fff;
+	text-align: center;
+}
+.footerup_on div:nth-child(3){
+	width: 342px;
+}
+.footerup_on div:nth-child(3) h2{
+	padding-top: 6px;
+}
+.footerup_on div:nth-child(3){
+	font-size: 36px;
+	color: #fff;
+}
+.footerup_on div:nth-child(3)>div>div{
+	float: left;
+	color: #ffd800;
+	margin-right: 20px;
+}
+.footerup_on div:nth-child(3)>div>div>span{
+	color: #fff;
+	display: block;
+}
+.footerup_on div:nth-child(3)>div>div>span:nth-child(1){
+	font-size: 18px;
+}
+.footerup_on div:nth-child(3)>div>div>span:nth-child(2){
+	font-size: 14px;
+}
+.footerup_on div:nth-child(3)>div>use{
+	color: #ffd800;
+}
+.footerdown{
+	background-color: #2b2e33;
+}
+.footerdown_on{
+	width: 1200px;
+	margin: 0 auto;
+}
+.footer_logo{
+	float: left;
+	display: block;
+	width: 190px;
+	margin-left: 29px;
+	margin-top: 15px;
+	margin-bottom: 14px;
+	padding-top: 61px;
+	background: url(../images/logo_03.png) no-repeat;
+}
+.copyright{
+	float: right;
+	font-size: 12px;
+	color: #717479;
+	line-height: 17px;
+	margin-top: 30px;
+}
