@@ -4,8 +4,8 @@
                 })
                     
            	$('.classification button').tap(function(){
-           		$('.classification-beijing').eq($(this).index()).fadeIn(300)
-           		$('.classification-beijing').eq($(this).index()).siblings('.classification-beijing').css('display','none') 
+           		$('.classification-beijing').eq($(this).index()).siblings('.classification-beijing').fadeIn(300)
+           		$('.classification-beijing').eq($(this).index()).css('display','none')
            	})
           
          

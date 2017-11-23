@@ -28,6 +28,6 @@
 				}
 			})
 			$('.content').tap(function(){
-				window.location.href="result.html";
+				window.location.href="TeamDetails.html";
 			})
 
