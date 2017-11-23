@@ -31,6 +31,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	  -webkit-text-stroke-width: 0.2px;
 	  -moz-osx-font-smoothing: grayscale;
 }
+a{
+  -webkit-tap-highlight-color:transparent !important
+}
 .top{
 	width: 6.4rem;
 	background-color: #50bbdb;

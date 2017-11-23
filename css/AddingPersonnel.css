@@ -27,6 +27,9 @@ html, body, div, span, applet, object, iframe,
       font-size:0;
 		}
 		.clearfix { *zoom:1;}
+		a{
+			-webkit-tap-highlight-color:transparent !important
+		}
 		header{
 			width: 6.4rem;
 		}

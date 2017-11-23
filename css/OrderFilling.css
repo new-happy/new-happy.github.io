@@ -42,6 +42,9 @@
 	  -moz-osx-font-smoothing: grayscale;
 }
 		.clearfix { *zoom:1;}
+		a{
+  -webkit-tap-highlight-color:transparent !important
+}
 		header{
 			width: 6.4rem;
 		}
@@ -122,6 +125,7 @@
 			line-height: .27rem;
 			height: .27rem;
 			border: .01rem solid #ccc;
+			color: #6fc1cd;
 			text-align: center;
 		}
 		.main>div>div:first-child{
@@ -153,16 +157,21 @@
 			text-align: center;
 		}
 		.splice{
-			width: 2.09rem;
+			width: 6.4rem;
+			display: flex;	
+		}
+		.splice>div{
 			display: flex;
-			justify-content: space-between;
+		}
+		.splice>p{
 			margin-left: .36rem;
 		}
-		.main .splice>p{
-			margin-left: 0;
-		}
-		.splice>input{
+		.splice> div input{
 			margin-top: .2rem;
+		}
+		.line>div:nth-child(7)>div>p:first-child{
+			width: 1.77rem;
+			margin-left: 0;
 		}
 		.xiugai{
 			width: 5.17rem;
@@ -180,12 +189,12 @@
 		    color: #50bbdb;
 		    background-color: #fff;
 		}
-		.line>div:last-child{
-			width: 3.56rem;
+		/*.line>div:last-child{
+			width: 3.66rem;
 			display: flex;
 			justify-content: space-between;
 			margin-left: 1.77rem;
-		}
+		}*/
 		.line>div:last-child>input{
 			margin-top: .2rem;
 		}
