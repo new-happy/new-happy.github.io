@@ -143,9 +143,11 @@
 		}
 		.room>div>input{
 			display: block;
+			padding:0;
 			width: .49rem;
 			font-size: .12rem;
-			height: .26rem;
+			outline: none;
+			height: .27rem;
 			margin-top: .07rem;
 			border: .01rem solid #ccc;
 			text-align: center;
