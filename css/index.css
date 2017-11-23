@@ -134,10 +134,11 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 .search{
 	width: 4rem;
 	position: absolute;
-	bottom:3.3rem;
+	top: 0.25rem;
 	right: 1.2rem;
 }
 .search input{
+	display: block;
 	width: 3.98rem;
 	line-height: 0.43rem;
 	text-indent: 0.2rem;
@@ -147,14 +148,19 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	border-radius: 5px;
 }
 .search>a{
+	display: block;
+	width: 0.27rem;
+	line-height: 0.43rem;
 	position: absolute;
-	top: 4px;
-	right: 0.18rem;
+    top: 0;
+    right: 0.1rem;
 	text-decoration: none;
 }
-.search i{
+.search a i{
 	font-size: 0.26rem;
+	line-height: 0.43rem;
 	color: #82cce4;
+	display: block;
 }
 .banner-dawn{
 	width: 4.75rem;
