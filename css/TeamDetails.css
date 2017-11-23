@@ -379,6 +379,7 @@ a{
 			padding: .34rem 0 .6rem 0;
 		}
 		.footer-top>div:nth-child(3) img{
+			display: block;
 			width: 0.97rem;
 			height: 0.99rem;
 		}

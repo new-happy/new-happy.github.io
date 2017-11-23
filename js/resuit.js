@@ -12,13 +12,13 @@
 			document.querySelector('.city').style.display = 'none'
 		})
 	
-		$('.city-down-a>div span').tap(function(event){
+		$('.city-down-a>div').tap(function(event){
 			  event.preventDefault();
-			    $(this).addClass('active')
-			  	$(this).parent().siblings().find('span').removeClass('active')
-			  	$(this).siblings('button').find('img').attr('src','images/button1.jpg')
+			    $(this).find('span').addClass('active')
+			  	$(this).siblings().find('span').removeClass('active')
+			  	$(this).find('button').find('img').attr('src','images/button1.jpg')
 			
-			  $(this).parent().siblings().find("button>img").attr('src','images/button.jpg')
+			  $(this).siblings().find("button>img").attr('src','images/button.jpg')
 			}) 	
 
 		var hanArr = document.querySelectorAll('.handle>span')
