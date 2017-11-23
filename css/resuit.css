@@ -50,6 +50,12 @@ header a{
 	line-height: 0.88rem;
 	color: #fff;
 }
+.warp header a img{
+	display: block;
+	width: .52rem;
+	height: .12rem;
+	margin-top: .4rem;
+}
 header div{
 	padding-top: 0.16rem;
 	text-align: center;

@@ -509,18 +509,20 @@ a{
 			float: left;
 		}
 		.n-left{
-			padding: 0 .64rem 0 .59rem;
+			width: 1.59rem;
+			text-align: center;
 			background: url(../images/xin.jpg) no-repeat .62rem .2rem;
 			background-size:.34rem .37rem;
 			border-right: .01rem solid #ccc;
 			background-color: #fff;
 		}
 		.n-center{
-			padding: 0 .34rem .0 .43rem;
 			background: url(../images/dianhua.jpg)
 			no-repeat .62rem .2rem;
 			background-size:.34rem .37rem;
+			text-align: center;
 			background-color: #fff;
+			width: 1.59rem;
 		}
 		.n-center>p{
 			display: block;
@@ -533,7 +535,7 @@ a{
 			margin-bottom: .12rem;
 		}
 		.n-right{
-			width: 3.19rem;
+			width: 3.2rem;
 			background: #50bbdb;
 			text-align: center;
 		}
