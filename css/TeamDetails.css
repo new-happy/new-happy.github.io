@@ -465,6 +465,7 @@ a{
 		}
 		.u-downTwo>ul>li{
 			margin-top: .2rem;
+			list-style: none;
 		}
 		.u-downTwo>ul>li>p{
 			float: left;
@@ -510,19 +511,19 @@ a{
 		}
 		.n-left{
 			width: 1.59rem;
-			text-align: center;
 			background: url(../images/xin.jpg) no-repeat .62rem .2rem;
 			background-size:.34rem .37rem;
-			border-right: .01rem solid #ccc;
+			border-right: 1px solid #ccc;
 			background-color: #fff;
+			text-align: center;
 		}
 		.n-center{
+			width: 1.59rem;
 			background: url(../images/dianhua.jpg)
 			no-repeat .62rem .2rem;
 			background-size:.34rem .37rem;
-			text-align: center;
 			background-color: #fff;
-			width: 1.59rem;
+			text-align: center;
 		}
 		.n-center>p{
 			display: block;
