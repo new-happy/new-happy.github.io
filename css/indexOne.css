@@ -291,6 +291,10 @@ a{
 	font-size: 0.3rem;
 	padding-top: 0.12rem;
 }
+.warp .top .active{
+	background-color: #fff;
+	color: #50bbdb;
+}
 .warp .banner .astive{
 	background-color: #50bbdb;
 }
