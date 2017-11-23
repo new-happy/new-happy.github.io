@@ -111,6 +111,8 @@ html, body, div, span, applet, object, iframe,
     }
      .main>div>button img{
       display: block;
+      width: 0.41rem;
+      height: 0.41rem;
      }
     .main>img{
       width: .51rem;
