@@ -174,12 +174,14 @@ a{
 			display: flex;
 			justify-content: space-between;
 		}
-		.m-top .top-up>p{
+		.m-top .top-up>p>a{
 			font-size: .24rem;
 			line-height: .63rem;
 			padding: 0 .32rem;
+			text-decoration: none;
+			color: #000;
 		}
-		.m-top .top-up>p:first-child{
+		.m-top .top-up>p:first-child a{
 			color: #39a1c0;
 		}
 		.m-top .trabecula{
