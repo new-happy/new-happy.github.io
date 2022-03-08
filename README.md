@@ -12,3 +12,4 @@
 * 11.`document.Get`
    符号之间的会以代码的形式展现
 *********   
+* 12. express-generator 测试打包服务
